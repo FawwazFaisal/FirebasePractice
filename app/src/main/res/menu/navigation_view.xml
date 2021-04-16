@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view"
+    app:itemBackground="@color/white">
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_my_health"
+            android:icon="@drawable/ic_right_24"
+            app:actionViewClass="android.widget.TextView"
+            android:title="My Health" />
+
+        <item
+            android:visible="false"
+            android:id="@+id/nav_medical_history"
+            android:icon="@drawable/ic_right_24"
+            android:title="@string/medical_history" />
+        <item
+            android:visible="false"
+            android:id="@+id/nav_doctor_report"
+            android:icon="@drawable/ic_right_24"
+            android:title="@string/doctor_s_report" />
+        <item
+            android:visible="false"
+            android:id="@+id/nav_old_alerts"
+            android:icon="@drawable/ic_right_24"
+            android:title="@string/past_requests" />
+
+        <item
+            android:id="@+id/nav_hospitals_and_labs"
+            android:icon="@drawable/ic_right_24"
+            android:title="Hospitals and Labs" />
+
+        <item
+            android:visible="false"
+            android:id="@+id/nav_reg_hosp_and_labs"
+            android:title="Regular Hospitals and Labs"
+            android:icon="@drawable/ic_right_24" />
+        <item
+            android:visible="false"
+            android:id="@+id/nav_covid_hosp_and_labs"
+            android:title="COVID Hospitals and Labs"
+            android:icon="@drawable/ic_right_24" />
+    </group>
+</menu>
